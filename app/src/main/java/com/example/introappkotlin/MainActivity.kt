@@ -20,10 +20,11 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-
+    //sorteador
     fun sorteio(view: View){
         val resultado = findViewById<TextView>(R.id.text_resultado)
         val numero = Random.nextInt(101)
         resultado.setText("Numero: $numero")
     }
+
 }
